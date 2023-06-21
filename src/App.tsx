@@ -1,16 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Home from './components/pages/Home';
+import React, { Component } from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import Content from "./components/Content/Content";
 
-function App() {
-  return (
-    <div className="App">
-         {/* <h1>Hello World</h1> */}
-         
-         <Home/>
-    </div>
-  );
+export default class App extends Component {
+  componentDidMount() {
+
+  }
+
+  render() {
+    return (
+      <div className="min-h-screen">
+        <Content/>
+      </div>
+    );
+  }
 }
 
-export default App;
+// export default App;
