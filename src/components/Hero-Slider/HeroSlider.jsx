@@ -4,11 +4,19 @@ import Slider from 'react-slick'
 import {sliderData} from '../../assets/fake-data/slider'
 import './slider.css'
 const HeroSlider = () => {
-  return <section>
+  const settings = {
+    infinity:true,
+    speed:500,
+    sliderToShow:1,
+    slidesToScroll:1,
+    autoplay:true,
+    autoplayspeed:3000
+  }
+  return( 
+    <section>
   <Container>
   <Slider>
-  {
-    sliderData.map(item=>(
+  {sliderData.map(item=>(
         <div>
         <div className='slider_wrapper d-flex align-item-center justify-content-between pt-5'>
         <div className='slider_content w-50 ps-2'>
@@ -21,14 +29,14 @@ const HeroSlider = () => {
            </div>
         </div>
         </div>
-    )
-        )
+    
+        ))
   }
   </Slider>
   </Container>
-
   </section>
+  );
 
-}
+};
 
-export default HeroSlider
+export default HeroSlider;
