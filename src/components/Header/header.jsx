@@ -50,14 +50,22 @@ const Header = () => {
           </li>
         ))}
         </ul>
+        
         <div className='menu_right'>
         <div className='custom_serach'>
         <input type='text' placeholder='serach item....' />
-        <span><i class="ri-search-fill" onClick={menuToggle}></i>
+        <span><i class="ri-search-line" onClick={menuToggle}></i>
         </span>
         </div>
     </div>
         </div>
+        </div>
+        <div>
+
+        <span className='cart_icon'>
+        <i class="ri-shopping-cart-line"></i>
+        <span className='badge'>2</span>
+        </span>
         </div>
       // <li className='nav_item'><a href='#'>Home</a></li>
       
