@@ -5,6 +5,9 @@ import HeroSlider from "../../Hero-Slider/HeroSlider";
 import PolularMenu from "../../popular.menu/PolularMenu";
 import ChooseUs from "../../choose-up/ChooseUs";
 import MenuPack from "../../Menu-pack/MenuPack";
+import Testimonials from "../../testimonials/Testimonials";
+import Download from "../../download-section/Download";
+import Footer from "../../footer/Footer";
 // // export default class Home extends Component {
 // //   render() {
 // //     return (
@@ -21,6 +24,9 @@ const Home = ()=>{
       <PolularMenu/>
       <ChooseUs/>
       <MenuPack/>
+      <Testimonials/>
+      <Download/>
+      <Footer/>
   </Fragment>
   );
 };

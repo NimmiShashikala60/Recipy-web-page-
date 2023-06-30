@@ -37,7 +37,7 @@ const Header = () => {
       <div className='navigation'>
       <div className='logo'>
          <h2 className='d-flex align-items-center gap-5'>
-         <span><i class="ri-restaurant-2-line"></i></span> Chef Juce
+         <span><i class="ri-restaurant-2-line"></i></span>{""} Chef Juce
          </h2>
       </div>
       <div className='nav_menu'  ref={menuRef}>

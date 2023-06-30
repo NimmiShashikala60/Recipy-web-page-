@@ -109,6 +109,7 @@
     }
     .header{
         line-height: 40px;
+        height: 60px;
         padding: 20px 0px;
     }
     .custom_search{

@@ -21,7 +21,8 @@ const MenuPack = () => {
       <Container>
          <col lg='12' className='text-center mb-4'><h3 className='menu_title'>Our Menu Pack</h3></col>
          <col lg='12' className='text-center mb-5'>
-         <button className='filter-btn' onClick={()=>setFilter('FAST-FOOD')}>Fast Food</button>
+         <button className={'filter-btn'} 
+         onClick={()=>setFilter('FAST-FOOD')}>Fast Food</button>
          <button className='filter-btn active_btn' onClick={()=>setFilter('FAST-FOOD')}>Rice Menu</button>
          <button className='filter-btn' onClick={()=>setFilter('FAST-FOOD')}>Pizza</button>
          <button className='filter-btn' onClick={()=>setFilter('FAST-FOOD')}>Juce</button>
@@ -40,4 +41,4 @@ const MenuPack = () => {
        
 }
 
-export default MenuPack
+export default MenuPack;

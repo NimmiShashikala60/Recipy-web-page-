@@ -7,10 +7,10 @@ const ChooseUs = () => {
   return <section>
       <Container>
          <Row>
-           <col lg='6'>
+           <col lg='6' md='6'>
               <img src={fruitImg} alt='' className='w-100'/>
            </col>
-             <col lg='6'>
+             <col lg='6' md='6'>
                <div className='choose_content'>
                  <h4>Who we are?</h4>
                  <h2>Take a look at the benefits we offer you</h2>
