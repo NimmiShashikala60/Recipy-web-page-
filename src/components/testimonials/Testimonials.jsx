@@ -18,7 +18,7 @@ const testimonials = () => {
         <section>
           <Container>
              <Row>
-                <Col lg='8' className='m-auto'>
+                <Col lg='8' sm='12' md='12' className='m-auto'>
                       <div className='slider__wrapper d-flex align-item-center gap-5'>
                          <div className='slider__content w-50'>
                          <h2 className='mb-4'>What our Customers are saying</h2>

@@ -16,3 +16,14 @@
     font-size: 0.7rem;
    }
 }
+@media only screen and (max-width:767px) {
+    .slider_wrapper{
+        flex-direction: column;
+    }
+    .slider_content{
+        width: 100% !important;
+    }
+    .slider_img{
+        display: none;
+    }
+}
